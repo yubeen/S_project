@@ -1,0 +1,37 @@
+html,body{}
+html{}
+body
+{
+    background-image: 
+        linear-gradient( 
+            skyblue 2px,transparent 2px, 
+            rgba(255, 255, 255, 0) 12px, transparent 12px,
+            skyblue 13px, transparent 13px,
+            rgba(255, 255, 255, 0) 23px, transparent 23px,
+            skyblue 24px, transparent 24px,
+            rgba(255, 255, 255, 0) 34px, transparent 34px,
+            skyblue 35px, transparent 35px,
+            rgba(255, 255, 255, 0) 45px, transparent 45px,
+            skyblue 46px, transparent 46px
+            ), 
+        linear-gradient(-270deg, 
+            skyblue 2px,transparent 2px, 
+            rgba(255, 255, 255, 0) 12px, transparent 12px,
+            skyblue 13px, transparent 13px,
+            rgba(255, 255, 255, 0) 23px, transparent 23px,
+            skyblue 24px, transparent 24px,
+            rgba(255, 255, 255, 0) 34px, transparent 34px,
+            skyblue 35px, transparent 35px,
+            rgba(255, 255, 255, 0) 45px, transparent 45px,
+            skyblue 46px, transparent 46px
+        );
+        background-size: 56px 56px
+}
+
+.nav-left
+{
+    position: absolute;
+    width:300px;
+    height:100%;
+    background-color: white;
+}

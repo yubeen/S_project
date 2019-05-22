@@ -3,6 +3,7 @@
 
 body
 {
+    text-align : center;
     max-height: 100%;
     margin : 20px;
     background-image: 
@@ -106,4 +107,7 @@ body
 .myInfo
 {
     height : 1000px;
+    width : 90%;
+    background-color: white;
 }
+

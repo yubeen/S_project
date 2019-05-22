@@ -1,37 +1,109 @@
-html,body{}
-html{}
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Permanent+Marker&display=swap');
+@font-face { font-family: 'uhbeeYeonie'; src: url(resource/UhBee\ Yeonie.ttf) format('truetype'); }
+
 body
 {
+    max-height: 100%;
+    margin : 20px;
     background-image: 
         linear-gradient( 
-            skyblue 2px,transparent 2px, 
+            rgba(135, 207, 235, 0.5) 1px,transparent 1px, 
+            rgba(255, 255, 255, 0) 6px, transparent 6px,
+            rgba(135, 207, 235, 0.5) 7px, transparent 7px,
             rgba(255, 255, 255, 0) 12px, transparent 12px,
-            skyblue 13px, transparent 13px,
-            rgba(255, 255, 255, 0) 23px, transparent 23px,
-            skyblue 24px, transparent 24px,
-            rgba(255, 255, 255, 0) 34px, transparent 34px,
-            skyblue 35px, transparent 35px,
-            rgba(255, 255, 255, 0) 45px, transparent 45px,
-            skyblue 46px, transparent 46px
+            rgba(135, 207, 235, 0.5) 13px, transparent 13px,
+            rgba(255, 255, 255, 0) 18px, transparent 18px,
+            rgba(135, 207, 235, 0.5) 19px, transparent 19px,
+            rgba(255, 255, 255, 0) 24px, transparent 24px,
+            rgba(135, 207, 235, 0.5) 25px, transparent 25px
             ), 
-        linear-gradient(-270deg, 
-            skyblue 2px,transparent 2px, 
+        linear-gradient(-90deg, 
+            rgba(135, 207, 235, 0.5) 1px,transparent 1px, 
+            rgba(255, 255, 255, 0) 6px, transparent 6px,
+            rgba(135, 207, 235, 0.5) 7px, transparent 7px,
             rgba(255, 255, 255, 0) 12px, transparent 12px,
-            skyblue 13px, transparent 13px,
-            rgba(255, 255, 255, 0) 23px, transparent 23px,
-            skyblue 24px, transparent 24px,
-            rgba(255, 255, 255, 0) 34px, transparent 34px,
-            skyblue 35px, transparent 35px,
-            rgba(255, 255, 255, 0) 45px, transparent 45px,
-            skyblue 46px, transparent 46px
+            rgba(135, 207, 235, 0.5) 13px, transparent 13px,
+            rgba(255, 255, 255, 0) 18px, transparent 18px,
+            rgba(135, 207, 235, 0.5) 19px, transparent 19px,
+            rgba(255, 255, 255, 0) 24px, transparent 24px,
+            rgba(135, 207, 235, 0.5) 25px, transparent 25px
         );
-        background-size: 56px 56px
+        background-size: 25px 25px
 }
 
-.nav-left
+.content
 {
-    position: absolute;
-    width:100%;
-    height:300px;
+    height : 100%;
+    overflow: auto;
+}
+
+.bodyBorderTop
+{
+    margin : 0px;
+    padding : 0px;
+    width : 100%;
+    height : 20px;
     background-color: white;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: -999;
+}
+.bodyBorderleft
+{
+    margin : 0px;
+    padding : 0px;
+    width : 20px;
+    height : 100%;
+    background-color: white;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: -999;
+}
+.bodyBorderRight
+{
+    margin : 0px;
+    padding : 0px;
+    width : 20px;
+    height : 100%;
+    background-color: white;
+    position: absolute;
+    top : 0px;
+    right : 0px;
+    z-index: -999;
+}
+.bodyBorderBottom
+{
+    margin : 0px;
+    padding : 0px;
+    width : 100%;
+    height : 20px;
+    background-color : white;
+    position : absolute;
+    bottom : 0px;
+    left : 0px;
+    z-index : -999;
+}
+
+.titleIndex
+{
+    color : rgba(50, 50, 50, 0.9);
+    font-size : 100px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+.subTitle
+{
+    font-family: 'uhbeeYeonie', cursive;
+}
+
+.myInfoBtn
+{
+    width : 100px;
+}
+
+.myInfo
+{
+    height : 1000px;
 }

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu|Permanent+Marker&display=swap');
-@font-face { font-family: 'uhbeeYeonie'; src: url(resource/UhBee\ Yeonie.ttf) format('truetype'); }
+@font-face { font-family: 'DongKyung'; src: url(resource/UhBee\ DongKyung.ttf) format('truetype'); }
 
 body
 {
@@ -92,16 +92,32 @@ body
     color : rgba(50, 50, 50, 0.9);
     font-size : 100px;
     font-family: 'Permanent Marker', cursive;
-    text-align: center;
 }
 .subTitle
 {
-    font-family: 'uhbeeYeonie', cursive;
+    font-family: 'DongKyung', cursive;
+    color : rgba(50, 50, 50, 0.9);
+    font-size: 30px;
+    word-spacing: 10px;
+    word-break: keep-all;
 }
-
+.gitBtn
+{
+    position: absolute;
+    top: 60px;
+    left: -25px;
+    width: 140px;
+    height: 40px;
+    background: rgb(255, 72, 142);
+}
 .myInfoBtn
 {
-    width : 100px;
+    position: absolute;
+    top: 120px;
+    left: -25px;
+    width: 140px;
+    height: 40px;
+    background: rgb(255, 246, 117);
 }
 
 .myInfo
@@ -109,5 +125,6 @@ body
     height : 1000px;
     width : 90%;
     background-color: white;
+    margin : auto;
 }
 

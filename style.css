@@ -2,6 +2,11 @@
 @font-face { font-family: 'DongKyung'; src: url(resource/UhBee\ DongKyung.ttf) format('truetype'); }
 @font-face { font-family: 'Yeonie'; src: url(resource/UhBee\ Yeonie.ttf) format('truetype'); }
 
+i
+{
+    vertical-align: sub;
+    margin: 10px;
+}
 p
 {
     margin : 5px;

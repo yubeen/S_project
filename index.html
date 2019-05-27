@@ -1,24 +1,66 @@
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Tutorial</title>
+</head>
+
+<body>
     <div class="bodyBorderTop"></div>
     <div class="bodyBorderLeft"></div>
     <div class="bodyBorderRight"></div>
     <div class="bodyBorderBottom"></div>
-</head>
-
-<body>
     <div class="content">
         <!-- 메뉴버튼 -->
-        <div class="gitBtn" OnClick="location.href ='https://github.com/yubeen/tutorial'" style="cursor:pointer;">
+        <div class="gitBtn" OnClick="window.open('https://github.com/yubeen/tutorial')">
             <img src="resource/GitHub_Logo.png" width="100px;">
         </div>
         <!-- 타이틀 및 서브타이틀 -->
-        <div class="titleIndex">TUTORIAL</div>
+        <span class="titleIndex">TUTORIAL</span>
         <div class="subTitle">반가워요! 무럭무럭 성큼성큼 성장하는 새싹입니다!</div>
-            About Me
         <div class="myInfoBtn"><a href="#myInfo">I am?</a></div>
-        <div class="portfolioBtn"><a href="#portfolio">work</a></div>
-        <div id="myInfo" class="myInfo"></div>
-        <div id="work" class="work"></div>
+        <div class="workBtn"><a href="#work">work</a></div>
+        
+        <div id="myInfo" class="myInfo">
+            <div class="postBox">
+                <div class="infoTitle">About Me</div>
+                <p>신유빈(yubeen shin) 1995.10.24</p>
+                <p>010-8442-1411</p>
+                <p>sinyu_07@naver.com</p>
+                <p>서울영상고등학교 영상미디어학과 졸업</p>
+                <p>청강문화산업대학교 게임학과 졸업</p>
+                <p>인하공업전문대학 컴퓨터정보공학과(심화과정) 재학중</p>
+                <p>2018.10.29 ~ 2019.02.28 - NC soft</p>
+                <p>2016.08 ~ 2018.10 - 청강문화산업대학교 전자계산소</p>
+                <p>2016.05 ~ 2016.07 엔도어즈 QA 아르바이트</p>
+
+            </div>
+            <div class="boxWidth">
+                <div style="text-align: left">
+                <p>저는 이런걸 할 줄 압니다<i class="material-icons">mood</i></p>
+                <ul>
+                    <li>HTML,css 좀 잘하는 것 같아요</li>
+                    <li>스크립트 능력이 매우 뛰어나진 않지만 응용력이 좋아요</li>
+                    <li>nodeJS 알게모르게 사용해봤습니다</li>
+                    <li>UI/UX 디자인 입맛에 잘 맞춰드려요</li>
+                    <li>Angular를 이용해 개발했었습니다</li>
+                    <li>ORACLE SQL 할만큼 합니다</li>
+                    <li>내가 하는 일만큼은 책임감 있게 부딪쳐보고 끝장내기 좋아합니다!</li>
+                    <li>안되는걸 포기하지 않고 되게하기 위해 연구합니다</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div style="clear: none;"></div>
+        <div id="work" class="work">
+            <p>프로젝트 명 - CKInfo</p>
+            <p>플랫폼 - 웹</p>
+            <p>사용 언어 - HTML,CSS,TypeScript,SQL</p>
+            <p>사용 프로그램 - Angular,DreamFactory,Oracle,Git</p>
+            <p>개발 기간	개발 기간 : 2016. 11 ~ (라이브 서비스 중)
+            <p>개발 인원	6명</p>
+            <p>운영용 : https://ckinfo.ck.ac.kr 개발용 : https://bckinfo.ck.ac.kr</p>
+        </div>
     </div>
 </body>
+

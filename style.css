@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu:700|Caveat|Permanent+Marker&display=swap');
 @font-face { font-family: 'DongKyung'; src: url(resource/UhBee\ DongKyung.ttf) format('truetype'); }
 @font-face { font-family: 'Yeonie'; src: url(resource/UhBee\ Yeonie.ttf) format('truetype'); }
+@font-face { font-family: 'Se_hyun'; src: url(resource/UhBee\ Se_hyun.ttf) format('truetype'); }
 
 i
 {
@@ -10,6 +11,7 @@ i
 p
 {
     margin : 5px;
+    word-break: keep-all;
 }
 body
 {
@@ -115,36 +117,94 @@ body
 .infoTitle
 {
     font-family: 'Caveat', cursive;
-    color : rgba(50, 50, 50, 0.9);
+    font-weight: bold;
+    color: deeppink;
     font-size:30px;
     text-align: left;
+}
+/* 버튼 애니메이션을 위함 */
+@-webkit-keyframes slideInDown 
+{
+    from {}
+    to 
+    {
+        top: 80px;
+    }
+}
+@keyframes slideInDown 
+{
+    from {}
+    to 
+    {
+        top: 80px;
+    }
 }
 .gitBtn
 {
     position: absolute;
-    top: 60px;
+    transform: rotate(93deg);
+    top: 55px;
     left: -25px;
     width: 140px;
     height: 40px;
     background: rgb(255, 72, 142);
+    box-shadow: 5px -5px 10px -5px grey;
+    cursor: pointer;
+}
+.gitBtn:hover
+{
+    animation-duration: 1s;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    animation-fill-mode: forwards;
 }
 .myInfoBtn
 {
     position: absolute;
-    top: 120px;
-    left: -25px;
+    transform: rotate(89deg);
+    top: 59px;
+    left: 24px;
     width: 140px;
     height: 40px;
     background: rgb(255, 246, 117);
+    box-shadow: 5px -5px 10px -5px grey;
+}
+.myInfoBtn:hover
+{
+    animation-duration: 1s;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    animation-fill-mode: forwards;
 }
 .workBtn
 {
     position: absolute;
-    top: 150px;
-    left: -25px;
+    transform: rotate(92deg);
+    top: 58px;
+    left: 72px;
     width: 140px;
     height: 40px;
     background: rgb(172, 255, 124);
+    box-shadow: 5px -5px 10px -5px grey;
+}
+.workBtn:hover
+{
+    animation-duration: 1s;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    animation-fill-mode: forwards; 
+}
+
+.btnText
+{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    text-decoration-line: none;
+    color : rgba(50, 50, 50, 0.9);
+}
+.btnText:visited
+{
+    color : rgba(50, 50, 50, 0.9);
 }
 
 .myInfo
@@ -159,7 +219,7 @@ body
 .postBox
 {
     background : rgb(253, 255, 138);
-    box-shadow: 0px 10px 20px -20px grey;
+    box-shadow: 0px 10px 15px -15px grey;
     width: 40%;
     float: left;
     padding: 15px;
@@ -167,10 +227,21 @@ body
 }
 .boxWidth
 {
-    float: left;
+    float: right;
+    width: 50%;
 }
 
 .work
 {
     clear: both;
+    font-family: 'Se_hyun', cursive;
+    font-size: 21px;
+    width: 50%;
+    text-align: left;
+}
+
+.line
+{
+    border: 2px solid rgba(86, 207, 255,.8);
+    border-radius: 10px 0px 10px 0px;
 }

@@ -232,6 +232,7 @@ body
     float: left;
     padding: 15px;
     text-align: left;
+    margin-bottom: 80px;
 }
 .boxWidth
 {
@@ -308,6 +309,10 @@ body
     font-family: 'DongKyung', cursive;
     font-size: 25px;
     color : rgba(50, 50, 50, 0.9);
+}
+
+.workLink
+{
 }
 
 

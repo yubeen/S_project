@@ -134,27 +134,28 @@ body
 {
     to 
     {
-        top: 80px;
+        top: 40px;
     }
 }
 @keyframes slideInDown 
 {
     to 
     {
-        top: 80px;
+        top: 40px;
     }
 }
 .gitBtn
 {
     position: absolute;
     transform: rotate(93deg);
-    top: 55px;
+    top: -65px;
     left: -25px;
     width: 140px;
     height: 40px;
     background: rgb(255, 72, 142);
     box-shadow: 5px -5px 10px -5px grey;
     cursor: pointer;
+    z-index: 999;
 }
 .gitBtn:hover
 {
@@ -167,12 +168,13 @@ body
 {
     position: absolute;
     transform: rotate(89deg);
-    top: 59px;
+    top: -60px;
     left: 24px;
     width: 140px;
     height: 40px;
     background: rgb(255, 246, 117);
     box-shadow: 5px -5px 10px -5px grey;
+    z-index: 999;
 }
 .myInfoBtn:hover
 {
@@ -185,12 +187,13 @@ body
 {
     position: absolute;
     transform: rotate(92deg);
-    top: 58px;
+    top: -65px;
     left: 72px;
     width: 140px;
     height: 40px;
     background: rgb(172, 255, 124);
     box-shadow: 5px -5px 10px -5px grey;
+    z-index: 999;
 }
 .workBtn:hover
 {
@@ -241,7 +244,6 @@ body
     clear: both;
     font-family: 'Se_hyun', cursive;
     font-size: 21px;
-    width: 50%;
     text-align: left;
     margin: 20px;
 }
@@ -250,20 +252,97 @@ body
 {
     border: 2px solid rgba(86, 207, 255,.8);
     border-radius: 10px 0px 10px 0px;
+    margin: 10px 0px;
 }
 .infoSubTitle
 {
     transform: rotate(-3deg);
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 35px;
+}
+.subInfo
+{
+    font-size: 20px;
+    color: #da8eff;
 }
 
 .highlight
 {
-      height: 20px;
-      background: linear-gradient( 45deg, rgb(172, 255, 124), rgba(172, 255, 124,.5) );
-      border-radius: 10px 5px 5px 8px;
-      position: relative;
-      z-index: -1;
-      top: -26px;
+    height: 25px;
+    width: 300px;
+    transform: rotate(-2deg);
+    background: linear-gradient( 45deg, rgb(172, 255, 124), rgba(172, 255, 124,0.7) );
+    border-radius: 5px 15px 5px 5px;
+    position: relative;
+    z-index: -1;
+    top: -30px;
+}
+.leaflet
+{
+    font-family: 'Permanent Marker', cursive;
+    background: white;
+    border-radius: 5px;
+    border: 5px solid red;
+    box-shadow: 0 0 0 6px #fff;
+    display: inline-block;
+    font-size: 30px;
+    padding: 0px 30px;
+    margin: 25px;
+    transform: rotate(-5deg);
+}
+.smileIcon
+{
+    font-size: 35px;
+    background: yellow;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    position: fixed;
+}
+.fontAlign
+{
+    text-align: center;
+}
+
+.hiddenTitle
+{
+    font-family: 'DongKyung', cursive;
+    font-size: 25px;
+    color : rgba(50, 50, 50, 0.9);
+}
+
+
+@media screen and (max-width:700px) 
+{
+    li
+    {
+        font-size: 15px;
+    }
+    .hiddenTitle
+    {
+        display: none;
+    }
+    .titleIndex
+    {
+        font-size: 75px;
+    }
+    .subTitle
+    {
+        font-size: 20px;
+    }
+    .infoSubTitle
+    {
+        font-size: 20px;
+    }
+    .postBox
+    {
+        font-size: 15px;
+    }
+    .subInfo
+    {
+        font-size: 15px;
+    }
+    .highlight
+    {
+        width: 200px;
+    }
 }

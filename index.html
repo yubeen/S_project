@@ -15,59 +15,79 @@
         <div class="gitBtn" OnClick="window.open('https://github.com/yubeen/tutorial')">
             <img src="resource/GitHub_Logo.png" width="100px;">
         </div>
-        <div class="myInfoBtn"><a href="#myInfo" class="btnText">I am?</a></div>
-        <div class="workBtn"><a href="#work" class="btnText">work</a></div>
+        <a href="#myInfo" class="btnText"><div class="myInfoBtn">I am?</div></a>
+        <a href="#work" class="btnText"><div class="workBtn">work</div></a>
         <!-- 타이틀 및 서브타이틀 -->
         <span class="titleIndex">TUTORIAL</span>
+        <div class="hiddenTitle">가로 해상도 700px 이상의 화면을 추천드립니다!</div>
         <div class="subTitle">반가워요! 무럭무럭 성큼성큼 성장하는 새싹입니다!</div>
         <div id="myInfo" class="myInfo">
             <div class="postBox">
                 <div class="infoTitle"><i class="material-icons">lightbulb_outline</i>About Me</div>
-                <p>신유빈(yubeen shin) 1995.10.24</p>
-                <p>010-8442-1411</p>
-                <p>sinyu_07@naver.com</p>
+                <p><i class="material-icons">person</i>신유빈(yubeen shin) 1995.10.24</p>
+                <p><i class="material-icons">phone</i>010-8442-1411</p>
+                <p><i class="material-icons">email</i>sinyu_07@naver.com</p>
                 <div class="line"></div>
-                <p>인하공업전문대학 컴퓨터정보공학과(심화과정) 재학중</p>
-                <p>청강문화산업대학교 게임학과 졸업</p>
-                <p>서울영상고등학교 영상미디어학과 졸업</p>
+                <div class="fontAlign"><i class="material-icons">school</i></div>
+                <p><b>인하공업전문대학</b> 컴퓨터정보공학과(심화과정) 재학중</p>
+                <p><b>청강문화산업대학교</b> 게임학과 졸업</p>
+                <p><b>서울영상고등학교</b> 영상미디어학과 졸업</p>
                 <div class="line"></div>
+                <div class="fontAlign"><i class="material-icons">business_center</i></div>
                 <p>2018.10.29 ~ 2019.02.28 - NC soft 기반시스템개발실 API게이트웨이개발팀 개발 보조(단기계약직)</p>
                 <p>2016.08 ~ 2018.10 - 청강문화산업대학교 전자계산소 근로장학생</p>
                 <p>2016.05 ~ 2016.07 엔도어즈 QA 아르바이트</p>
             </div>
             <div class="boxWidth">
                 <div style="text-align: left">
-                <p>저는 이런걸 할 줄 압니다<i class="material-icons">mood</i></p>
+                <p class="infoSubTitle">
+                    저는 이런걸 할 줄 압니다
+                    <i class="material-icons smileIcon">mood</i>
+                </p>
                 <div class="highlight"></div>
                 <ul>
-                    <li>HTML,CSS 좀 잘하는 것 같아요</li>
-                    <li>스크립트 능력이 매우 뛰어나진 않지만 응용력이 좋아요</li>
-                    <li>nodeJS 알게모르게 사용해봤습니다</li>
+                    <li>
+                        HTML,CSS 좀 잘하는 것 같아요
+                        <p class="subInfo">미디어쿼리, 애니메이션, 크로스 브라우징······.</p>
+                    </li>
+                    <li>
+                        스크립트 능력이 매우 뛰어나진 않지만, 응용력이 좋아요~
+                        <p class="subInfo">Angular를 이용해 개발을 위해 TypeScript, nodeJS 사용해 봤습니다!</p>
+                    </li>
                     <li>UI/UX 디자인 입맛에 잘 맞춰드려요</li>
-                    <li>Angular를 이용해 개발했었습니다</li>
-                    <li>ORACLE SQL 할만큼 합니다</li>
-                    <li>포토샵/일러스트 꽤나 잘 다룹니다</li>
+                    <li>ORACLE SQL 할만큼 합니다
+                        <p class="subInfo">쿼리문 작성, 뷰 테이블 제작······.</p>
+                    </li>
+                    <li>포토샵/일러스트 빼놓을 수 없죠
+                        <p class="subInfo">사진 보정, 편집 ······.</p>
+                    </li>
                     <li>내가 하는 일만큼은 책임감 있게 부딪쳐보고 끝장내기 좋아합니다!</li>
-                    <li>안되는걸 포기하지 않고 되게하기 위해 연구합니다</li>
+                    <li>안되는걸 포기하지 않고 되게 하기 위해 연구합니다</li>
                 </ul>
                 </div>
             </div>
         </div>
         <div id="work" class="work">
-            <img src="resource/img/webpage_1.png" width="500px;">
-            <img src="resource/img/mobile_2.png" width="300px;">
-            <img src="resource/img/mobile_3.png" width="300px;">
+            <div class="leaflet">Work</div>
             <div>
-                <p>프로젝트 명 : CKInfo</p>
-                <p>플랫폼 : 웹</p>
-                <p>사용 언어 : HTML/CSS/TypeScript/SQL</p>
-                <p>사용 프로그램 : Angular/DreamFactory/Oracle/Git</p>
-                <p>개발 기간 : 개발 기간 : 2016. 11 ~ (라이브 서비스 중)
-                <p>개발 인원 : 6명</p>
-                <p>담당 업무 : 웹프론트 개발 전반, UI/UX디자인 전반, DB view 부분 개발</p>
-                <p>운영용 : https://ckinfo.ck.ac.kr</p>
-                <p>개발용 : https://bckinfo.ck.ac.kr</p>
-                <p><img src="resource/img/mobile_1.png" width="300px;"></p>
+                <div style = "height: 300px;">
+                    <img src="resource/img/webpage_1.png" height="100%;">
+                    <img src="resource/img/mobile_4.png" height="100%;">
+                </div>
+                <img src="resource/img/mobile_2.png" width="300px;">
+                <img src="resource/img/mobile_3.png" width="300px;">
+                <div>
+                    <p>프로젝트 명 : CKInfo</p>
+                    <p>플랫폼 : 웹</p>
+                    <p>사용 언어 : HTML/CSS/TypeScript/SQL</p>
+                    <p>사용 프로그램 : Angular/DreamFactory/Oracle/Git</p>
+                    <p>개발 기간 : 개발 기간 : 2016. 11 ~ (라이브 서비스 중)
+                    <p>개발 인원 : 6명</p>
+                    <p>담당 업무 : 웹프론트 개발 전반, UI/UX디자인 전반, DB view 부분 개발</p>
+                    <p>운영용 : https://ckinfo.ck.ac.kr</p>
+                    <p>개발용 : https://bckinfo.ck.ac.kr</p>
+                    <p><img src="resource/img/mobile_1.png" width="300px;"></p>
+                </div>
             </div>
         </div>
     </div>

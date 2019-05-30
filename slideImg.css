@@ -62,10 +62,10 @@ ul,li
 {
     display:inline-block;
     vertical-align:middle;
-    width:10px;
-    height:10px;
-    border:2px solid #666;
-    background:#fff;
+    width:25px;
+    height:25px;
+    border:2px solid #fff;
+    background:#666;
     transition:0.3s;
     border-radius:50%;
     cursor:pointer;
@@ -97,17 +97,17 @@ ul,li
 }
 #pos1:checked~.pos>label:nth-child(1)
 {
-  background:#666;
+  background:#faa;
 }
 #pos2:checked~.pos>label:nth-child(2)
 {
-  background:#666;
+  background:#ffa;
 }
 #pos3:checked~.pos>label:nth-child(3)
 {
-  background:#666;
+  background:#faF;
 }
 #pos4:checked~.pos>label:nth-child(4)
 {
-  background:#666;
+  background:#aaf;
 }

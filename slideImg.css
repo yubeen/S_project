@@ -8,6 +8,10 @@ ul,li
 {
   list-style:none;
 }
+@keyframes bling
+{
+  100% { background-color: #666; }
+}
 #slide
 {
   height:500px;
@@ -34,26 +38,7 @@ ul,li
   width:25%;
   height:100%;
 }
-#slide li:nth-child(1)
-{
-  background:#faa;
-  text-align: center;
-}
-#slide li:nth-child(2)
-{
-  background:#ffa;
-  text-align: center;
-}
-#slide li:nth-child(3)
-{
-  background:#faF;
-  text-align: center;
-}
-#slide li:nth-child(4)
-{
-  background:#aaf;
-  text-align: center;
-}
+
 #slide input
 {
   display:none;
@@ -74,7 +59,7 @@ ul,li
 {
   text-align:center;
   position:absolute;
-  bottom:10px;
+  top:0;
   left:0;
   width:100%;
   text-align:center;
@@ -98,16 +83,20 @@ ul,li
 #pos1:checked~.pos>label:nth-child(1)
 {
   background:#faa;
+  animation: bling 1s infinite;
 }
 #pos2:checked~.pos>label:nth-child(2)
 {
   background:#ffa;
+  animation: bling 1s infinite;
 }
 #pos3:checked~.pos>label:nth-child(3)
 {
   background:#faF;
+  animation: bling 1s infinite;
 }
 #pos4:checked~.pos>label:nth-child(4)
 {
   background:#aaf;
+  animation: bling 1s infinite;
 }
